@@ -1,0 +1,37 @@
+**LOG BEGUN     2024-12-31 11:23:27,187
+loading C:eftlinklog4j2.xml
+2024-12-31 11:23:27,387 INFO  [main] (Keygen:185) -  
+2024-12-31 11:23:27,473 INFO  [main] (Keygen:185) -  TLS certificate keystore generation
+2024-12-31 11:23:27,509 INFO  [main] (Keygen:185) -  Parameters
+2024-12-31 11:23:27,510 INFO  [main] (Keygen:185) -  
+2024-12-31 11:23:27,511 INFO  [main] (Keygen:185) -  Algorithm             : RSA
+2024-12-31 11:23:27,511 INFO  [main] (Keygen:185) -  BitLength             : 4096
+2024-12-31 11:23:27,512 INFO  [main] (Keygen:185) -  SignAlgorithm         : SHA256WITHRSA
+2024-12-31 11:23:27,513 INFO  [main] (Keygen:185) -  Invalid Validity      : 1750
+2024-12-31 11:23:27,517 INFO  [main] (Keygen:185) -  Key generation usage:
+2024-12-31 11:23:27,518 INFO  [main] (Keygen:185) -  
+2024-12-31 11:23:27,522 INFO  [main] (Keygen:185) -  To generate self-signed certificate
+2024-12-31 11:23:27,528 INFO  [main] (Keygen:185) -  -e <algorithm> <bitLength> <signAlgorithm> <daysValidity> [-dname]
+2024-12-31 11:23:27,533 INFO  [main] (Keygen:185) -  eg: -e RSA 4096 SHA256withRSA 365 
+2024-12-31 11:23:27,543 INFO  [main] (Keygen:185) -  use optional -dname parameter to prompt for Distinguished Names information
+2024-12-31 11:23:27,545 INFO  [main] (Keygen:185) -  eg: -e RSA 4096 SHA256withRSA 365 -dname
+2024-12-31 11:23:27,546 INFO  [main] (Keygen:185) -  
+2024-12-31 11:23:27,549 INFO  [main] (Keygen:185) -   supported algorithms     : EC,DSA,RSA
+2024-12-31 11:23:27,550 INFO  [main] (Keygen:185) -   supported bitLengths     : 256 (EC)
+2024-12-31 11:23:27,551 INFO  [main] (Keygen:185) -                            : 1024,2048 (DSA)
+2024-12-31 11:23:27,554 INFO  [main] (Keygen:185) -                            : 1024,2048,3072,4096,7680,8192,15360 (RSA)
+2024-12-31 11:23:27,555 INFO  [main] (Keygen:185) -   supported signAlgorithms : SHA256withECDSA,SHA384withECDSA,SHA512withECDSA (EC)
+2024-12-31 11:23:27,557 INFO  [main] (Keygen:185) -                            : SHA256withDSA (DSA)
+2024-12-31 11:23:27,558 INFO  [main] (Keygen:185) -                            : SHA256withRSA,SHA384withRSA,SHA512withRSA (RSA)
+2024-12-31 11:23:27,560 INFO  [main] (Keygen:185) -   supported days validity  : 100 to 750
+2024-12-31 11:23:27,562 INFO  [main] (Keygen:185) -  
+2024-12-31 11:23:27,562 INFO  [main] (Keygen:185) -  To generate certificate for Signing by Certificate Authority
+2024-12-31 11:23:27,562 INFO  [main] (Keygen:185) -  -s <algorithm> <bitLength> <signAlgorithm> <daysValidity> [-dname]
+2024-12-31 11:23:27,563 INFO  [main] (Keygen:185) -  parameters are the same as per -e 
+2024-12-31 11:23:27,563 INFO  [main] (Keygen:185) -  following this stage, the certificates are to be sent to a Certificate Authority for signing 
+2024-12-31 11:23:27,564 INFO  [main] (Keygen:185) -  
+2024-12-31 11:23:27,564 INFO  [main] (Keygen:185) -  To import certificate for Signed by Certificate Authority
+2024-12-31 11:23:27,565 INFO  [main] (Keygen:185) -  -i <foldername> <ca_root certificate filename> <signed eftlink certificate filename> <signed pos certificate filename> [optional intermediate certificate file1] [optional intermediate certificate file2] 
+2024-12-31 11:23:27,565 INFO  [main] (Keygen:185) -  eg: -i ########1212 ca_root.cer eftlink.private.cer.der pos.private.cer.der intermediate1.cer intermediate2.cer
+2024-12-31 11:23:27,565 INFO  [main] (Keygen:185) -  
+**LOG STOPPED   2024-12-31 11:23:27,579

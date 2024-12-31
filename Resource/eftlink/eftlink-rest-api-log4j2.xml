@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+		<Property name="eftlink-rest-api-fileName">log/eftlink-rest-api.log</Property>
+		<Property name="cleardownDays">30d</Property>
+	</Properties>
+
+	<Appenders>
+		<RollingRandomAccessFile
+			name="eftlink_rest_api_log" fileName="${eftlink-rest-api-fileName}"
+			immediateFlush="false"
+			filePattern="${eftlink-rest-api-fileName}.%d{yyyy-MM-dd}-%i.log">
+			<PatternLayout>
+				<Pattern>%d{HH:mm:ss,SSS} [%t] (%C{2}:%L) %-5p - %m{nolookups}%n</Pattern>
+			</PatternLayout>
+			<DefaultRolloverStrategy max="14">
+				<Delete basePath="log" maxDepth="1">
+					<IfLastModified age="${cleardownDays}" />
+				</Delete>
+			</DefaultRolloverStrategy>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+				<OnStartupTriggeringPolicy />
+			</Policies>
+		</RollingRandomAccessFile>
+
+		<Async name="async_eftlink_rest_api_log" includeLocation="true">
+			<AppenderRef ref="eftlink_rest_api_log" />
+		</Async>
+	</Appenders>
+
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="async_eftlink_rest_api_log" />
+		</Root>
+
+	</Loggers>
+</Configuration>

@@ -1,0 +1,73 @@
+**LOG BEGUN     2024-12-31 11:27:52,917
+loading C:eftlink.log4j2.xml
+2024-12-31 11:27:53,114 INFO  [WrapperSimpleAppMain] (EFTLink:340) -  EftlinkConfig.properties found on classpath, already in local folder - update check n/a
+2024-12-31 11:27:53,126 INFO  [WrapperSimpleAppMain] (EPSFileProperties:65) -  loading properties file EftlinkConfig.properties from C:\eftlink
+2024-12-31 11:27:53,130 INFO  [WrapperSimpleAppMain] (OPIServer:3444) - EF/8007 OPI Server v23.0.0.14 20230719-1616 primary root C:\eftlink instance root C:\eftlink
+2024-12-31 11:27:53,626 INFO  [WrapperSimpleAppMain] (EPSFileProperties:65) - EF/8007 loading properties file comms.keystore.properties from C:\eftlink\keys
+2024-12-31 11:27:54,003 INFO  [WrapperSimpleAppMain] (OPIMessageServer:118) - EF/8007 executing OPIMessageServer for eftlink application/service
+2024-12-31 11:27:54,259 INFO  [WrapperSimpleAppMain] (OPIServer:3591) - EF/8007 deferring all initialisation till POS type is known
+2024-12-31 11:27:54,470 INFO  [WrapperSimpleAppMain] (Utils:701) - EF/8007 Startup information 
+  System hardware / OS information 
+   OS name                 Windows 10
+   OS arch                 amd64
+   OS version              10.0
+   Available CPU cores     8
+   Free memory bytes       10861024
+   Max memory bytes        268435456
+   encoding                UTF8
+  File system      
+   File system root        C:\
+   Usable space bytes      66881146880
+   File system root        D:\
+   Usable space bytes      ########3056
+  Java information 
+   Java version            11.0.3
+   Java home               c:\jre
+   Java path               null
+  Total memory available to JVM (bytes): 20971520
+   Available JVM mem bytes 20971520
+  User information 
+   User name               AT20315667
+  Libraries versions - class path 
+   lib/angus-activation-1.0.0.jar                              1.0.0              
+   lib/gson-2.10.1.jar                                         2.10.1             
+   lib/jakarta.activation-api-2.1.1.jar                        2.1.1              
+   lib/jakarta.json-1.1.1.jar                                  1.1.1              
+   lib/jakarta.servlet-api-4.0.4.jar                           4.0.0              
+   lib/jakarta.xml.bind-api-4.0.0.jar                          4.0.0              
+   lib/jakarta.xml.soap-api-3.0.0.jar                          3.0.0              
+   lib/jetty-client-9.4.51.v20230217.jar                       9.4.51.v20230217   
+   lib/jetty-http-9.4.51.v20230217.jar                         9.4.51.v20230217   
+   lib/jetty-io-9.4.51.v20230217.jar                           9.4.51.v20230217   
+   lib/jetty-security-9.4.51.v20230217.jar                     9.4.51.v20230217   
+   lib/jetty-server-9.4.51.v20230217.jar                       9.4.51.v20230217   
+   lib/jetty-servlet-9.4.51.v20230217.jar                      9.4.51.v20230217   
+   lib/jetty-util-9.4.51.v20230217.jar                         9.4.51.v20230217   
+   lib/jetty-util-ajax-9.4.51.v20230217.jar                    9.4.51.v20230217   
+   lib/jetty-xml-9.4.51.v20230217.jar                          9.4.51.v20230217   
+   lib/log4j-api-2.20.0.jar                                    2.20.0             
+   lib/log4j-core-2.20.0.jar                                   2.20.0             
+   lib/saaj-impl-3.0.0.jar                                     3.0.0              
+   lib/stax-ex-2.1.0.jar                                       2.1.0              
+   lib/websocket-api-9.4.51.v20230217.jar                      9.4.51.v20230217   
+   lib/websocket-client-9.4.51.v20230217.jar                   9.4.51.v20230217   
+   lib/websocket-common-9.4.51.v20230217.jar                   9.4.51.v20230217   
+   lib/websocket-server-9.4.51.v20230217.jar                   9.4.51.v20230217   
+   lib/websocket-servlet-9.4.51.v20230217.jar                  9.4.51.v20230217   
+   lib/wrapper.jar                                             3.5.53             
+   cores/Adyen/AdyenCore.jar                                   v23.0.0.5           EFTLink v23.0.0.5-141        
+   cores/Cayan/cayancore.jar                                   v23.0.0.3           EFTLink v23.0.0.3-141        
+   cores/FIPay/FIPayCore.jar                                   v23.0.0.2           EFTLink v23.0.0.2-141        
+   cores/OciusSentinel/ociussentinelcore.jar                   v23.0.0.2           EFTLink v23.0.0.2-141        
+   cores/opiRetail/opiretail.jar                               v23.0.0.24          EFTLink v23.0.0.24-141       
+   cores/paybylink/paybylink.jar                               v23.0.0.2           EFTLink v23.0.0.2-141        
+   cores/PointUS/Pointuscore.jar                               v23.0.0.4           EFTLink v23.0.0.4-141        
+   cores/SixPay/sixpaycore.jar                                 v23.0.0.1           EFTLink v23.0.0.1-141        
+   cores/SolveConnect/SolveConnect.jar                         v23.0.0.1           EFTLink v23.0.0.1-141        
+   cores/TenderRetail/epstenderretail.jar                      v23.0.0.2           EFTLink v23.0.0.2-141        
+   cores/WorldPay/worldpaycore.jar                             v23.0.0.1           EFTLink v23.0.0.1-141        
+   cores/PayPal/PayPalCore.jar                                 v23.0.0.1           EFTLink v23.0.0.1-141        
+   cores/Geidea/GeideaCore.jar                                 1.0                
+2024-12-31 11:27:54,471 INFO  [WrapperSimpleAppMain] (OPIMessageServer:349) - EF/8007 starting TLS message server localhost/10100
+2024-12-31 11:27:54,489 INFO  [WrapperSimpleAppMain] (OPIMessageServer$ConnectionHandler:687) - EF/8007 starting connection handler on 10100/1981195330
+2024-12-31 11:27:54,490 INFO  [OPIMessageServer[1981195330]] (OPIMessageServer$ConnectionHandler:714) -  Configured to check for expired TLS certificates, TLSExpiryWarningLogDays: 90

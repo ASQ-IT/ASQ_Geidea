@@ -1,0 +1,46 @@
+Logger initialized
+Ant basedir:C:\Users\VI20552770\AppData\Local\Temp\antinstall1
+Filter: org.tp23.antinstaller.runtime.exe.InputStreamLoadConfigFilter
+Config loaded
+Filter: org.tp23.antinstaller.runtime.exe.CreateUIFilter
+Creating UI classes
+Created UI classes
+Filter: org.tp23.antinstaller.runtime.exe.PropertyLoaderFilter
+loadDefaults attribute:true
+Checking for predefined properties
+Loading pre-defined properties from file D:\GEIDEA\workspace_data\V1037109-01\V23.0.0.141-GA\v23.0.0.141.installer\ant.install.properties
+Loading defaults
+Filter: org.tp23.antinstaller.runtime.exe.ExecuteRunnerFilter
+Starting UI Screens
+Install screens rendered
+Filter: org.tp23.antinstaller.runtime.exe.PropertyPrinterFilter
+auto build supported: true
+Rendering properties in the current directory: D:\GEIDEA\workspace_data\V1037109-01\V23.0.0.141-GA\v23.0.0.141.installer
+Properties printed:C:\Users\VI2055~1\AppData\Local\Temp\antinstall1\ant.install.properties
+Filter: org.tp23.antinstaller.runtime.exe.AntProjectFilter
+Starting Ant Project
+     [echo] Using supplied install directory value of C:\eftlink_V23
+[propertyfile] Updating property file: C:\Users\VI20552770\.installx.registry.properties
+
+sanity-check:
+
+stop-service:
+
+remove-original-service:
+
+remove-original-eftlink:
+
+prepare-eftlink:
+    [untar] Expanding: all.tar.gz into C:\eftlink_V23
+     [echo] 
+
+init-os-details:
+     [copy] Copying 1 resource to C:\Users\VI2055~1\AppData\Local\Temp\antinstall1
+
+install-eftlink:
+     [echo] creating directory C:\eftlink_V23/installx
+    [mkdir] Created dir: C:\eftlink_V23\installx
+     [copy] Copying 1 file to C:\eftlink_V23\installx
+     [echo] calling manito.eft.install.Install
+     [java] 11:35:34.029 [main] ERROR manito.eft.install.Install - Mandatory field not set: coreSetup
+     [copy] Copying 1 file to C:\eftlink_V23\installx

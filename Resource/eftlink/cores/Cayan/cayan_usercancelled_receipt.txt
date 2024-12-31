@@ -1,0 +1,18 @@
+<WIDTH=40>
+------------------------------------
+         <ReceiptType>
+<AccountNumber> <EntryMode>
+
+Status     : <Status>
+Amount     : <AmountApproved>
+Auth Code  : <AuthorizationCode>
+Cardholder : <Cardholder>
+PaymentType: <PaymentType>
+Token      : <Token>
+Date       : <TransactionDate>
+Type       : <TransactionType>
+RspType    : <ResponseType>
+
+------------------------------------
+<ErrorMessage+?>
+

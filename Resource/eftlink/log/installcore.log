@@ -1,0 +1,16 @@
+/31/- 1-Tu,11:37	START	Installing EFTLink	  
+/31/- 1-Tu,11:37	INFO	Running in interactive mode	  
+/31/- 1-Tu,11:37	INFO	user input Required: Type in EFTLink Installation Types	  
+/31/- 1-Tu,11:38	INFO	user entered: standalone	  
+/31/- 1-Tu,11:38	INFO	user input Required: Type in a the Channel 0 Port	  
+/31/- 1-Tu,11:38	INFO	user entered: 	  
+/31/- 1-Tu,11:38	INFO	user input Required: Type in a the Channel 1 Port	  
+/31/- 1-Tu,11:38	INFO	user entered: 	  
+/31/- 1-Tu,11:38	INFO	user input Required: Type in a list of all the cores you wish to activate	  
+/31/- 1-Tu,11:38	INFO	user entered: Geidea	  
+/31/- 1-Tu,11:38	INFO	Retriving details for EFTLink Core Geidea	  
+/31/- 1-Tu,11:38	INFO	user configuring a single core environment	  
+/31/- 1-Tu,11:38	INFO	EFTLink_Install	  
+/31/- 1-Tu,11:38	INFO	Setting classpath 	  
+/31/- 1-Tu,11:38	INFO	Running manito.eft.install.Install -i ""C:\\eftlink_V23/installx/install.properties""	  
+/31/- 1-Tu,11:38	FINISHED	Installation complete	  

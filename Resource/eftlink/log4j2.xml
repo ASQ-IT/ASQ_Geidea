@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" name="EFTLink" packages="manito.eft.common.log">
+  <Properties>
+
+<!-- This section is for MultiServerLauncher/PedPooling mode only -->
+<!-- When configuring for this mode, please ensure sections below -->
+<!-- are adjusted, and enough server/pos entries are created for  -->
+<!-- the configuration.                                           -->
+    <Property name="server1fileName">server1/log/server1.log</Property>
+    <Property name="server2fileName">server2/log/server2.log</Property>
+    <Property name="server3fileName">server3/log/server3.log</Property>
+    <Property name="pos1fileName">log/pos1.log</Property>
+    <Property name="pos2fileName">log/pos2.log</Property>
+    <Property name="pos3fileName">log/pos3.log</Property>
+<!-- End of MultiServerLauncher/PedPooling section                -->
+
+    <Property name="globalfileName">log/eftlink-server.log</Property>
+    <Property name="cleardownDays">30d</Property>
+
+  </Properties>
+
+  <Appenders>
+
+<!-- This section is for MultiServerLauncher/PedPooling mode only -->
+<!--
+  	<RollingRandomAccessFile name="server1_log" fileName="${server1fileName}" immediateFlush="false" filePattern="server1/log/server1.%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="%d %-5level [%t] (%C{1}:%L) - %X{LoggingTag}%X{ThreadId} %m%n" header="**LOG BEGUN     %date%nloading ${log4j:configLocation}%n" footer="**LOG STOPPED   %date%n" />
+	  <DefaultRolloverStrategy max="14">
+		<Delete basePath="log" maxDepth="1">
+			<IfLastModified age="${cleardownDays}" />
+		</Delete>
+	  </DefaultRolloverStrategy>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+		<OnStartupTriggeringPolicy />
+	  </Policies>
+    </RollingRandomAccessFile>
+  	<RollingRandomAccessFile name="server2_log" fileName="${server2fileName}" immediateFlush="false" filePattern="server2/log/server2.%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="%d %-5level [%t] (%C{1}:%L) - %X{LoggingTag}%X{ThreadId} %m%n" header="**LOG BEGUN     %date%nloading ${log4j:configLocation}%n" footer="**LOG STOPPED   %date%n" />
+	  <DefaultRolloverStrategy max="14">
+		<Delete basePath="log" maxDepth="1">
+			<IfLastModified age="${cleardownDays}" />
+		</Delete>
+	  </DefaultRolloverStrategy>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+		<OnStartupTriggeringPolicy />
+	  </Policies>
+    </RollingRandomAccessFile>
+  	<RollingRandomAccessFile name="server3_log" fileName="${server3fileName}" immediateFlush="false" filePattern="server3/log/server3.%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="%d %-5level [%t] (%C{1}:%L) - %X{LoggingTag}%X{ThreadId} %m%n" header="**LOG BEGUN     %date%nloading ${log4j:configLocation}%n" footer="**LOG STOPPED   %date%n" />
+	  <DefaultRolloverStrategy max="14">
+		<Delete basePath="log" maxDepth="1">
+			<IfLastModified age="${cleardownDays}" />
+		</Delete>
+	  </DefaultRolloverStrategy>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+		<OnStartupTriggeringPolicy />
+	  </Policies>
+    </RollingRandomAccessFile>
+  	<RollingRandomAccessFile name="pos1_log" fileName="${pos1fileName}" immediateFlush="false" filePattern="log/pos1.%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="%d %-5level [%t] (%C{1}:%L) - %X{LoggingTag}%X{ThreadId} %m%n" header="**LOG BEGUN     %date%nloading ${log4j:configLocation}%n" footer="**LOG STOPPED   %date%n" />
+	  <DefaultRolloverStrategy max="14">
+		<Delete basePath="log" maxDepth="1">
+			<IfLastModified age="${cleardownDays}" />
+		</Delete>
+	  </DefaultRolloverStrategy>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+		<OnStartupTriggeringPolicy />
+	  </Policies>
+    </RollingRandomAccessFile>
+  	<RollingRandomAccessFile name="pos2_log" fileName="${pos2fileName}" immediateFlush="false" filePattern="log/pos2.%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="%d %-5level [%t] (%C{1}:%L) - %X{LoggingTag}%X{ThreadId} %m%n" header="**LOG BEGUN     %date%nloading ${log4j:configLocation}%n" footer="**LOG STOPPED   %date%n" />
+	  <DefaultRolloverStrategy max="14">
+		<Delete basePath="log" maxDepth="1">
+			<IfLastModified age="${cleardownDays}" />
+		</Delete>
+	  </DefaultRolloverStrategy>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+		<OnStartupTriggeringPolicy />
+	  </Policies>
+    </RollingRandomAccessFile>
+  	<RollingRandomAccessFile name="pos3_log" fileName="${pos3fileName}" immediateFlush="false" filePattern="log/pos3.%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="%d %-5level [%t] (%C{1}:%L) - %X{LoggingTag}%X{ThreadId} %m%n" header="**LOG BEGUN     %date%nloading ${log4j:configLocation}%n" footer="**LOG STOPPED   %date%n" />
+	  <DefaultRolloverStrategy max="14">
+		<Delete basePath="log" maxDepth="1">
+			<IfLastModified age="${cleardownDays}" />
+		</Delete>
+	  </DefaultRolloverStrategy>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+		<OnStartupTriggeringPolicy />
+	  </Policies>
+    </RollingRandomAccessFile>
+-->
+<!-- End of MultiServerLauncher/PedPooling section                -->
+
+  	<RollingRandomAccessFile name="eftlinkglobal_log" fileName="${globalfileName}" immediateFlush="false" filePattern="log/eftlink-server.%d{yyyy-MM-dd}-%i.log">
+      <PatternLayout pattern="%d %-5level [%t] (%C{1}:%L) - %X{LoggingTag}%X{ThreadId} %m%n" header="**LOG BEGUN     %date%nloading ${log4j:configLocation}%n" footer="**LOG STOPPED   %date%n" />
+	  <DefaultRolloverStrategy max="14">
+		<Delete basePath="log" maxDepth="1">
+			<IfLastModified age="${cleardownDays}" />
+		</Delete>
+	  </DefaultRolloverStrategy>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+		<OnStartupTriggeringPolicy />
+	  </Policies>
+    </RollingRandomAccessFile>
+
+<!-- This section is for MultiServerLauncher/PedPooling mode only -->    
+<!--
+    <Async name="async_server1_log" includeLocation="true">
+      <AppenderRef ref="server1_log"/>
+  	</Async>
+    <Async name="async_server2_log" includeLocation="true">
+      <AppenderRef ref="server2_log"/>
+  	</Async>
+    <Async name="async_server3_log" includeLocation="true">
+      <AppenderRef ref="server3_log"/>
+  	</Async>
+    <Async name="async_pos1_log" includeLocation="true">
+      <AppenderRef ref="pos1_log"/>
+  	</Async>
+    <Async name="async_pos2_log" includeLocation="true">
+      <AppenderRef ref="pos2_log"/>
+  	</Async>
+    <Async name="async_pos3_log" includeLocation="true">
+      <AppenderRef ref="pos3_log"/>
+  	</Async>
+-->
+<!-- End of MultiServerLauncher/PedPooling section                -->
+
+<!-- Standard appender for ALL configurations                     -->    
+    <Async name="async_eftlinkglobal_log" includeLocation="true">
+      <AppenderRef ref="eftlinkglobal_log"/>
+  	</Async>
+<!-- End of standard appender section                             -->
+  </Appenders>
+  
+  <Loggers>
+  
+<!-- Standard logger for ALL configurations                       -->    
+    <Root level="INFO">
+      <AppenderRef ref="async_eftlinkglobal_log"/>
+    </Root>
+<!-- End of standard logger section                               -->
+
+<!-- This section is for MultiServerLauncher/PedPooling mode only -->    
+<!--
+    <Logger name="multifile.server1" level="INFO" additivity="true">
+	  <appender-ref ref="async_server1_log" level="INFO"/>
+	</Logger>
+    <Logger name="multifile.server2" level="INFO" additivity="true">
+	  <appender-ref ref="async_server2_log" level="INFO"/>
+	</Logger>
+    <Logger name="multifile.server3" level="INFO" additivity="true">
+	  <appender-ref ref="async_server3_log" level="INFO"/>
+	</Logger>
+    <Logger name="multifile.pos1" level="INFO" additivity="true">
+	  <appender-ref ref="async_pos1_log" level="INFO"/>
+	</Logger>
+    <Logger name="multifile.pos2" level="INFO" additivity="true">
+	  <appender-ref ref="async_pos2_log" level="INFO"/>
+	</Logger>
+    <Logger name="multifile.pos3" level="INFO" additivity="true">
+	  <appender-ref ref="async_pos3_log" level="INFO"/>
+	</Logger>
+-->
+<!-- End of MultiServerLauncher/PedPooling section                -->
+  </Loggers>
+  
+</Configuration>

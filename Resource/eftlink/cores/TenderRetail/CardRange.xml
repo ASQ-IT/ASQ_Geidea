@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CardRange>
+
+  <!-- card attributes by card type -->
+  <!-- Tender - optional direct mapping to a tender - this would normally be handled by the POS using a mapping from CardType -->
+  <!-- LoyaltyEligible - whether this payment type is elligible for loyalty point award e.g. not local accounts -->
+  <!-- SuppressLast - number of characters to cut from the end of the PAN before returning it to the POS -->
+  <!-- MaskFrom - start position for masking PAN. defaults to 1 if MaskTo is set -->
+  <!-- MaskTo - start position for masking PAN. defaults to PAN length if MaskFrom is set -->
+  <!-- MaskLast - number of characters to mask at the end of the PAN -->
+  <!-- ClearTextPAN - whether the PAN is to returned to the POS without masking e.g. for local accounts. only valid if no MaskXxx flags are set -->
+  
+  <!-- Card Type Attribute already in this config file for ICC -->
+  <!-- <CardTypeAttributes MaskingCRC="4981E453"/> -->
+  <!-- <CardTypeAttributes CardType = "99" MaskFrom="7" MaskTo="13"  LoyaltyEligible="true" /> -->
+  <!-- <CardTypeAttributes CardType = "80" ClearTextPAN="true" LoyaltyEligible="true" /> -->
+  
+
+  <!--  ============================================================ -->
+  <!--  RANGE AND WILDCARD MATCHES ARE PROCESSED IN THE ORDER LISTED -->
+  <!--  ============================================================ -->
+
+  <!-- wildcard matches for PAN/name using regular experessions -->
+  <!-- e.g. <Range  Match = "70712490.......7" Name = "Overdrive" Core = "0" CardType = "99" /> -->
+  <!-- e.g. <Range  Match = "(?i)maes.*" Name = "Maestro" Core = "0" CardType = "99" /> -->
+
+  <!-- start-end range matches -->
+  <!-- e.g. <Range  Start = "70660000" End = "70729999" Name = "Fuelcard" Core = "0" CardType = "99" /> -->
+  <!-- e.g. <Range  Match = "(?i)maes.*" Name = "Maestro" Core = "0" CardType = "99" /> -->
+  
+   <!-- DISCOVER -->
+  <!-- <Range Start="650611+" End="659999+" Name="DISCOVER" Core="0" CardType="99"/> -->
+  <!-- <Range Start="650601+" End="650609+" Name="DISCOVER" Core="0" CardType="99"/> -->
+  <!-- <Range Start="650000+" End="650600+" Name="DISCOVER" Core="0" CardType="99"/> -->
+  <!-- <Range Start="6440+" End="6499+" Name="DISCOVER" Core="0" CardType="99"/> -->
+  
+   <!-- UNIONPAY (CUP) -->
+   <!-- <Range Start="6282+" End="6288+" Name="UNIONPAY" Core="0" CardType="99"/> -->
+   <!-- <Range Start="6240+" End="6269+" Name="UNIONPAY" Core="0" CardType="99"/> -->
+   <!-- <Range Start="622126+" End="622925+" Name="UNIONPAY" Core="0" CardType="99"/> -->
+  
+   <!-- DISCOVER -->
+  <!-- <Range Start="601105+" End="601199+" Name="DISCOVER" Core="0" CardType="99"/> -->
+  <!-- <Range Start="601100+" End="601103+" Name="DISCOVER" Core="0" CardType="99"/> -->
+    
+   <!-- MASTERCARD -->
+  <!-- <Range Start="51+" End="55+" Name="MASTERCARD" Core="0" CardType="99"/>  -->
+  <!-- <Range Start="222100+" End="272099+" Name="MASTERCARD" Core="0" CardType="99"/> -->
+  
+  <!-- JCB -->
+  <!-- <Range Start="3528+" End="3589+" Name="JCB" Core="0" CardType="99"/>  -->
+   
+  <!-- VISA -->
+  <!-- <Range Start="4+" End="4+" Name="VISA" Core="0" CardType="99"/>  -->
+    
+  <!-- AMEX -->
+  <!-- <Range Start="37+" End="37+" Name="AMERICAN_EXPRESS" Core="0" CardType="99"/>  -->
+    
+  <!-- DINERS CLUB -->
+  <!-- <Range Start="38+" End="39+" Name="DINERS_CLUB" Core="0" CardType="99"/> -->
+  <!-- <Range Start="36+" End="36+" Name="DINERS_CLUB" Core="0" CardType="99"/> -->
+  <!-- <Range Start="3095+" End="3095+" Name="DINERS_CLUB" Core="0" CardType="99"/> -->
+  <!-- <Range Start="300+" End="305+" Name="DINERS_CLUB" Core="0" CardType="99"/>    -->
+  
+  <!-- AMEX -->
+  <!-- <Range Start="34+" End="34+" Name="AMERICAN_EXPRESS" Core="0" CardType="99"/>  -->
+  
+  <!-- Oracle Solution to Return PAN -->  
+  <!-- <Range Match = "(?i)master.*" Name = "MASTERCARD" Core = "0" CardType = "99" /> -->
+  <!-- <Range Match = "(?i)disc.*" Name = "DISCOVER" Core = "0" CardType = "99" /> -->
+  <!-- <Range Match = "(?i)visa.*" Name = "VISA" Core = "0" CardType = "99" /> -->
+
+  <!-- SVS -->
+  <!-- <Range Start="6006490+" End="6006499+" Name="SVS_GIFT_CARD" Core="0" CardType="80"/>  -->
+  
+ 
+   <!--  EFT catchall for unknown PAN/name matching -->
+  <!-- <Range Match=".+" Name="UNKNOWN CARD" Core="0" CardType="99"/> -->
+
+
+</CardRange>

@@ -1,0 +1,85 @@
+**LOG BEGUN     2024-12-31 11:28:27,872
+loading C:eftlinklog4j2.xml
+2024-12-31 11:28:27,950 INFO  [main] (Keygen:185) -  
+2024-12-31 11:28:27,957 INFO  [main] (Keygen:185) -  TLS certificate keystore generation
+2024-12-31 11:28:27,957 INFO  [main] (Keygen:185) -  Parameters
+2024-12-31 11:28:27,964 INFO  [main] (Keygen:185) -  
+2024-12-31 11:28:27,964 INFO  [main] (Keygen:185) -  Algorithm             : RSA
+2024-12-31 11:28:27,965 INFO  [main] (Keygen:185) -  BitLength             : 4096
+2024-12-31 11:28:27,965 INFO  [main] (Keygen:185) -  SignAlgorithm         : SHA256WITHRSA
+2024-12-31 11:28:27,966 INFO  [main] (Keygen:185) -  Validity              : 750
+2024-12-31 11:28:27,967 INFO  [main] (Keygen:185) -  Distinguished Name EFT: CN=EFTLink.EFTLINK,OU=RGBU,O=Oracle,L=Bolton,S=Lancs,C=UK
+2024-12-31 11:28:27,968 INFO  [main] (Keygen:185) -  Distinguished Name POS: CN=EFTLink.POS,OU=RGBU,O=Oracle,L=Bolton,S=Lancs,C=UK
+2024-12-31 11:28:27,968 INFO  [main] (Keygen:185) -  
+2024-12-31 11:28:27,969 INFO  [main] (Keygen:185) -  Starting TLS certificate keystore generation
+2024-12-31 11:28:27,969 INFO  [main] (Keygen:185) -  delete old comms.keystore.properties
+2024-12-31 11:28:27,969 INFO  [main] (Keygen:185) -  create new comms.keystore.properties
+2024-12-31 11:28:28,392 INFO  [main] (EPSFileProperties:65) -  loading properties file EftlinkConfig.properties from C:\eftlink
+2024-12-31 11:28:28,393 INFO  [main] (TLSSocketManager:309) -  iterations              : 10000
+2024-12-31 11:28:28,394 INFO  [main] (TLSSocketManager:309) -  hashbytesize            : 384
+2024-12-31 11:28:28,394 INFO  [main] (TLSSocketManager:309) -  digest                  : SHA-512
+2024-12-31 11:28:28,395 INFO  [main] (TLSSocketManager:309) -  secretkeyspec           : AES
+2024-12-31 11:28:28,395 INFO  [main] (TLSSocketManager:309) -  factoryinstance         : PBKDF2WITHHMACSHA512
+2024-12-31 11:28:28,395 INFO  [main] (TLSSocketManager:309) -  keystoretype            : JKS
+2024-12-31 11:28:28,395 INFO  [main] (TLSSocketManager:401) -  Using the following settings for generating keystores
+2024-12-31 11:28:28,396 INFO  [main] (TLSSocketManager:402) -  PBKDF2_ITERATIONS 10000
+2024-12-31 11:28:28,396 INFO  [main] (TLSSocketManager:403) -  HASH_BYTE_SIZE    384
+2024-12-31 11:28:28,396 INFO  [main] (TLSSocketManager:404) -  DIGEST            SHA-512
+2024-12-31 11:28:28,396 INFO  [main] (TLSSocketManager:405) -  SECRET_KEY_SPEC   AES
+2024-12-31 11:28:28,396 INFO  [main] (TLSSocketManager:406) -  FACTORY_INSTANCE  PBKDF2WITHHMACSHA512
+2024-12-31 11:28:28,396 INFO  [main] (TLSSocketManager:407) -  KEYSTORE_TYPE     JKS
+2024-12-31 11:28:28,397 WARN  [main] (EPSFileProperties:85) -  properties file error comms.keystore.properties not found
+2024-12-31 11:28:28,470 INFO  [main] (EPSFileProperties:65) -  loading properties file comms.keystore.properties from C:\eftlink
+2024-12-31 11:28:28,573 INFO  [main] (Keygen:185) -  delete old eftlink.private.jks
+2024-12-31 11:28:28,574 INFO  [main] (Keygen:185) -  create new eftlink.private.jks
+2024-12-31 11:28:30,900 INFO  [main] (Keygen:1371) -  keytool exit val 0
+2024-12-31 11:28:30,902 INFO  [main] (Keygen:185) -  created new eftlink.private.jks
+2024-12-31 11:28:30,970 INFO  [main] (Keygen:185) -  delete old pos.private.jks
+2024-12-31 11:28:30,972 INFO  [main] (Keygen:185) -  create new pos.private.jks
+2024-12-31 11:28:34,370 INFO  [main] (Keygen:1371) -  keytool exit val 0
+2024-12-31 11:28:34,372 INFO  [main] (Keygen:185) -  created new pos.private.jks
+2024-12-31 11:28:34,428 INFO  [main] (Keygen:185) -  delete old eftlink.public.cer
+2024-12-31 11:28:34,429 INFO  [main] (Keygen:185) -  create new eftlink.public.cer
+2024-12-31 11:28:34,876 INFO  [main] (Keygen:1371) -  keytool exit val 0
+2024-12-31 11:28:34,876 INFO  [main] (Keygen:185) -  created new eftlink.public.cer
+2024-12-31 11:28:34,916 INFO  [main] (Keygen:185) -  delete old eftlink.public.jks
+2024-12-31 11:28:34,917 INFO  [main] (Keygen:185) -  create new eftlink.public.jks
+2024-12-31 11:28:35,832 INFO  [main] (Keygen:1371) -  keytool exit val 0
+2024-12-31 11:28:35,833 INFO  [main] (Keygen:185) -  created new eftlink.public.jks
+2024-12-31 11:28:35,899 INFO  [main] (Keygen:185) -  delete old pos.public.cer
+2024-12-31 11:28:35,900 INFO  [main] (Keygen:185) -  create new pos.public.cer
+2024-12-31 11:28:36,392 INFO  [main] (Keygen:1371) -  keytool exit val 0
+2024-12-31 11:28:36,393 INFO  [main] (Keygen:185) -  created new pos.public.cer
+2024-12-31 11:28:36,431 INFO  [main] (Keygen:185) -  delete old pos.public.jks
+2024-12-31 11:28:36,432 INFO  [main] (Keygen:185) -  create new pos.public.jks
+2024-12-31 11:28:37,326 INFO  [main] (Keygen:1371) -  keytool exit val 0
+2024-12-31 11:28:37,326 INFO  [main] (Keygen:185) -  created new pos.public.jks
+2024-12-31 11:28:37,327 INFO  [main] (Keygen:185) -  cleaning up pos.public.cer
+2024-12-31 11:28:37,328 INFO  [main] (Keygen:185) -  cleaned up pos.public.cer
+2024-12-31 11:28:37,328 INFO  [main] (Keygen:185) -  cleaning up eftlink.public.cer
+2024-12-31 11:28:37,329 INFO  [main] (Keygen:185) -  cleaned up eftlink.public.cer
+2024-12-31 11:28:37,330 INFO  [main] (Keygen:185) -  creating folder eftlink.public.cer
+2024-12-31 11:28:37,330 INFO  [main] (Keygen:185) -  created folder eftlink.public.cer
+2024-12-31 11:28:37,335 INFO  [main] (Keygen:185) -  moved file eftlink.public.jks to folder keys
+2024-12-31 11:28:37,339 INFO  [main] (Keygen:185) -  moved file eftlink.private.jks to folder keys
+2024-12-31 11:28:37,344 INFO  [main] (Keygen:185) -  moved file pos.public.jks to folder keys
+2024-12-31 11:28:37,347 INFO  [main] (Keygen:185) -  moved file pos.private.jks to folder keys
+2024-12-31 11:28:37,351 INFO  [main] (Keygen:185) -  moved file comms.keystore.properties to folder keys
+2024-12-31 11:28:37,351 INFO  [main] (Keygen:185) -  
+2024-12-31 11:28:37,351 INFO  [main] (Keygen:185) -  Files created in folder - keys
+2024-12-31 11:28:37,351 INFO  [main] (Keygen:185) -  
+2024-12-31 11:28:37,353 INFO  [main] (Keygen:185) -  **** The following files are required to remain on the EFTLink server:
+2024-12-31 11:28:37,353 INFO  [main] (Keygen:185) -   eftlink.private.jks
+2024-12-31 11:28:37,353 INFO  [main] (Keygen:185) -   pos.public.jks
+2024-12-31 11:28:37,353 INFO  [main] (Keygen:185) -  
+2024-12-31 11:28:37,353 INFO  [main] (Keygen:185) -  **** The following files should be REMOVED from the EFTLink server and placed on the clients in the folder - \xstoredata\xstore\keys
+2024-12-31 11:28:37,354 INFO  [main] (Keygen:185) -   pos.private.jks
+2024-12-31 11:28:37,354 INFO  [main] (Keygen:185) -   eftlink.public.jks
+2024-12-31 11:28:37,354 INFO  [main] (Keygen:185) -  ( For clients which use a version of the EFTLink client prior to version 22, the folder will be - [PosRoot]\keys )
+2024-12-31 11:28:37,354 INFO  [main] (Keygen:185) -  
+2024-12-31 11:28:37,354 INFO  [main] (Keygen:185) -  **** The following file must be placed on BOTH the EFTLink server AND placed on the clients in the folder - \xstoredata\xstore\keys
+2024-12-31 11:28:37,355 INFO  [main] (Keygen:185) -   comms.keystore.properties
+2024-12-31 11:28:37,355 INFO  [main] (Keygen:185) -  ( For clients which use a version of the EFTLink client prior to version 22, the folder will be - [PosRoot]\keys )
+2024-12-31 11:28:37,355 INFO  [main] (Keygen:185) -  
+2024-12-31 11:28:37,355 INFO  [main] (Keygen:185) -  **** For best security, private keys should NOT be stored on all systems.
+**LOG STOPPED   2024-12-31 11:28:37,360

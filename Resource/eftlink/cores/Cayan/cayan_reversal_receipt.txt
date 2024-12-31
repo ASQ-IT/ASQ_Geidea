@@ -1,0 +1,21 @@
+<WIDTH=40>
+------------------------------------
+         <ReceiptType>
+<CardNumber> <EntryMode>
+
+Status     : <Status>
+Amount     : <AmountApproved>
+Auth Code  : <AuthorizationCode>
+Cardholder : <Cardholder>
+Cardtype   : <CardType>
+PaymentType: <PaymentType>
+Token      : <Token>
+Date       : <TransactionDate>
+Type       : <TransactionType>
+RspType    : <ResponseType>
+AvsResponse: <AvsResponse>
+CvResponse : <CvResponse>
+Invoice	   : <InvoiceNumber>	
+------------------------------------
+<ErrorMessage+?>
+<ExtraData+?>

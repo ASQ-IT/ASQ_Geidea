@@ -1,0 +1,105 @@
+FATAL  | wrapperm | 2024/12/31 11:38:24 | Failed to obtain elevated status. (0): The operation was canceled by the user. (0x4c7)
+STATUS | wrapper  | 2024/12/31 11:40:55 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/12/31 11:40:55 | Java Service Wrapper Professional Edition 64-bit 3.5.53
+STATUS | wrapper  | 2024/12/31 11:40:55 |   Copyright (C) 1999-2023 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2024/12/31 11:40:55 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2024/12/31 11:40:55 |   Licensed to Oracle America, Inc. for EFTLink
+STATUS | wrapper  | 2024/12/31 11:40:55 | 
+INFO   | wrapper  | 2024/12/31 11:40:55 | Event: wrapper_start
+INFO   | wrapper  | 2024/12/31 11:40:55 | Event: jvm_prelaunch
+STATUS | wrapper  | 2024/12/31 11:40:56 | Launching a JVM...
+INFO   | wrapper  | 2024/12/31 11:40:56 | Event: jvm_start
+INFO   | jvm 1    | 2024/12/31 11:40:56 | WrapperManager: Initializing...
+INFO   | wrapper  | 2024/12/31 11:40:58 | Event: jvm_started
+STATUS | wrapper  | 2024/12/31 11:50:50 | CTRL-C trapped.  Shutting down.
+INFO   | wrapper  | 2024/12/31 11:50:50 | Event: jvm_stop
+STATUS | wrapper  | 2024/12/31 11:51:12 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/12/31 11:51:12 | Java Service Wrapper Professional Edition 64-bit 3.5.53
+STATUS | wrapper  | 2024/12/31 11:51:12 |   Copyright (C) 1999-2023 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2024/12/31 11:51:12 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2024/12/31 11:51:12 |   Licensed to Oracle America, Inc. for EFTLink
+STATUS | wrapper  | 2024/12/31 11:51:12 | 
+INFO   | wrapper  | 2024/12/31 11:51:12 | Event: wrapper_start
+INFO   | wrapper  | 2024/12/31 11:51:13 | Event: jvm_prelaunch
+STATUS | wrapper  | 2024/12/31 11:51:13 | Launching a JVM...
+INFO   | wrapper  | 2024/12/31 11:51:13 | Event: jvm_start
+INFO   | jvm 1    | 2024/12/31 11:51:13 | WrapperManager: Initializing...
+INFO   | wrapper  | 2024/12/31 11:51:15 | Event: jvm_started
+STATUS | wrapper  | 2024/12/31 10:38:20 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/12/31 10:38:22 | Java Service Wrapper Professional Edition 64-bit 3.5.53
+STATUS | wrapper  | 2024/12/31 10:38:22 |   Copyright (C) 1999-2023 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2024/12/31 10:38:22 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2024/12/31 10:38:22 |   Licensed to Oracle America, Inc. for EFTLink
+STATUS | wrapper  | 2024/12/31 10:38:22 | 
+INFO   | wrapper  | 2024/12/31 10:38:22 | Event: wrapper_start
+INFO   | wrapper  | 2024/12/31 10:38:24 | Event: jvm_prelaunch
+STATUS | wrapper  | 2024/12/31 10:38:24 | Launching a JVM...
+INFO   | wrapper  | 2024/12/31 10:38:24 | Event: jvm_start
+INFO   | jvm 1    | 2024/12/31 10:38:26 | WrapperManager: Initializing...
+INFO   | wrapper  | 2024/12/31 10:38:33 | Event: jvm_started
+STATUS | wrapper  | 2024/12/31 11:16:44 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/12/31 11:16:44 | Java Service Wrapper Professional Edition 64-bit 3.5.53
+STATUS | wrapper  | 2024/12/31 11:16:44 |   Copyright (C) 1999-2023 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2024/12/31 11:16:44 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2024/12/31 11:16:44 |   Licensed to Oracle America, Inc. for EFTLink
+STATUS | wrapper  | 2024/12/31 11:16:44 | 
+INFO   | wrapper  | 2024/12/31 11:16:44 | Event: wrapper_start
+INFO   | wrapper  | 2024/12/31 11:16:44 | Event: jvm_prelaunch
+STATUS | wrapper  | 2024/12/31 11:16:45 | Launching a JVM...
+INFO   | wrapper  | 2024/12/31 11:16:45 | Event: jvm_start
+INFO   | jvm 1    | 2024/12/31 11:16:45 | WrapperManager: Initializing...
+INFO   | wrapper  | 2024/12/31 11:16:49 | Event: jvm_started
+STATUS | wrapper  | 2024/12/31 11:27:51 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/12/31 11:27:51 | Java Service Wrapper Professional Edition 64-bit 3.5.53
+STATUS | wrapper  | 2024/12/31 11:27:51 |   Copyright (C) 1999-2023 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2024/12/31 11:27:51 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2024/12/31 11:27:51 |   Licensed to Oracle America, Inc. for EFTLink
+STATUS | wrapper  | 2024/12/31 11:27:51 | 
+INFO   | wrapper  | 2024/12/31 11:27:51 | Event: wrapper_start
+INFO   | wrapper  | 2024/12/31 11:27:51 | Event: jvm_prelaunch
+STATUS | wrapper  | 2024/12/31 11:27:51 | Launching a JVM...
+INFO   | wrapper  | 2024/12/31 11:27:51 | Event: jvm_start
+INFO   | jvm 1    | 2024/12/31 11:27:52 | WrapperManager: Initializing...
+INFO   | wrapper  | 2024/12/31 11:27:54 | Event: jvm_started
+STATUS | wrapper  | 2024/12/31 11:31:35 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/12/31 11:31:36 | Java Service Wrapper Professional Edition 64-bit 3.5.53
+STATUS | wrapper  | 2024/12/31 11:31:36 |   Copyright (C) 1999-2023 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2024/12/31 11:31:36 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2024/12/31 11:31:36 |   Licensed to Oracle America, Inc. for EFTLink
+STATUS | wrapper  | 2024/12/31 11:31:36 | 
+INFO   | wrapper  | 2024/12/31 11:31:36 | Event: wrapper_start
+INFO   | wrapper  | 2024/12/31 11:31:36 | Event: jvm_prelaunch
+STATUS | wrapper  | 2024/12/31 11:31:36 | Launching a JVM...
+INFO   | wrapper  | 2024/12/31 11:31:36 | Event: jvm_start
+INFO   | jvm 1    | 2024/12/31 11:31:37 | WrapperManager: Initializing...
+INFO   | wrapper  | 2024/12/31 11:31:40 | Event: jvm_started
+STATUS | wrapper  | 2024/12/31 11:44:31 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/12/31 11:44:31 | Java Service Wrapper Professional Edition 64-bit 3.5.53
+STATUS | wrapper  | 2024/12/31 11:44:31 |   Copyright (C) 1999-2023 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2024/12/31 11:44:31 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2024/12/31 11:44:31 |   Licensed to Oracle America, Inc. for EFTLink
+STATUS | wrapper  | 2024/12/31 11:44:31 | 
+INFO   | wrapper  | 2024/12/31 11:44:32 | Event: wrapper_start
+INFO   | wrapper  | 2024/12/31 11:44:32 | Event: jvm_prelaunch
+STATUS | wrapper  | 2024/12/31 11:44:32 | Launching a JVM...
+INFO   | wrapper  | 2024/12/31 11:44:32 | Event: jvm_start
+INFO   | jvm 1    | 2024/12/31 11:44:33 | WrapperManager: Initializing...
+INFO   | wrapper  | 2024/12/31 11:44:37 | Event: jvm_started
+INFO   | jvm 1    | 2024/12/31 11:46:08 | SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+INFO   | jvm 1    | 2024/12/31 11:46:08 | SLF4J: Defaulting to no-operation (NOP) logger implementation
+INFO   | jvm 1    | 2024/12/31 11:46:08 | SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+STATUS | wrapper  | 2024/12/31 11:57:02 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/12/31 11:57:03 | Java Service Wrapper Professional Edition 64-bit 3.5.53
+STATUS | wrapper  | 2024/12/31 11:57:03 |   Copyright (C) 1999-2023 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2024/12/31 11:57:03 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2024/12/31 11:57:03 |   Licensed to Oracle America, Inc. for EFTLink
+STATUS | wrapper  | 2024/12/31 11:57:03 | 
+INFO   | wrapper  | 2024/12/31 11:57:03 | Event: wrapper_start
+INFO   | wrapper  | 2024/12/31 11:57:03 | Event: jvm_prelaunch
+STATUS | wrapper  | 2024/12/31 11:57:03 | Launching a JVM...
+INFO   | wrapper  | 2024/12/31 11:57:03 | Event: jvm_start
+INFO   | jvm 1    | 2024/12/31 11:57:04 | WrapperManager: Initializing...
+INFO   | wrapper  | 2024/12/31 11:57:06 | Event: jvm_started
+INFO   | jvm 1    | 2024/12/31 11:58:02 | SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+INFO   | jvm 1    | 2024/12/31 11:58:02 | SLF4J: Defaulting to no-operation (NOP) logger implementation
+INFO   | jvm 1    | 2024/12/31 11:58:02 | SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

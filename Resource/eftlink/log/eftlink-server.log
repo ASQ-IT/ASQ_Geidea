@@ -1,0 +1,253 @@
+**LOG BEGUN     2024-12-31 11:57:04,923
+loading C:eftlink.log4j2.xml
+2024-12-31 11:57:05,123 INFO  [WrapperSimpleAppMain] (EFTLink:340) -  EftlinkConfig.properties found on classpath, already in local folder - update check n/a
+2024-12-31 11:57:05,138 INFO  [WrapperSimpleAppMain] (EPSFileProperties:65) -  loading properties file EftlinkConfig.properties from C:\eftlink
+2024-12-31 11:57:05,142 INFO  [WrapperSimpleAppMain] (OPIServer:3444) - EF/7959 OPI Server v23.0.0.14 20230719-1616 primary root C:\eftlink instance root C:\eftlink
+2024-12-31 11:57:05,628 INFO  [WrapperSimpleAppMain] (EPSFileProperties:65) - EF/7959 loading properties file comms.keystore.properties from C:\eftlink\keys
+2024-12-31 11:57:05,874 INFO  [WrapperSimpleAppMain] (OPIMessageServer:118) - EF/7959 executing OPIMessageServer for eftlink application/service
+2024-12-31 11:57:06,011 INFO  [WrapperSimpleAppMain] (OPIServer:3591) - EF/7959 deferring all initialisation till POS type is known
+2024-12-31 11:57:06,192 INFO  [WrapperSimpleAppMain] (Utils:701) - EF/7959 Startup information 
+  System hardware / OS information 
+   OS name                 Windows 10
+   OS arch                 amd64
+   OS version              10.0
+   Available CPU cores     8
+   Free memory bytes       11534296
+   Max memory bytes        268435456
+   encoding                UTF8
+  File system      
+   File system root        C:\
+   Usable space bytes      66885476352
+   File system root        D:\
+   Usable space bytes      ########8880
+  Java information 
+   Java version            11.0.3
+   Java home               c:\jre
+   Java path               null
+  Total memory available to JVM (bytes): 20971520
+   Available JVM mem bytes 20971520
+  User information 
+   User name               AT20315667
+  Libraries versions - class path 
+   lib/ECRWrapper.jar                                          1                  
+   lib/angus-activation-1.0.0.jar                              1.0.0              
+   lib/gson-2.10.1.jar                                         2.10.1             
+   lib/jakarta.activation-api-2.1.1.jar                        2.1.1              
+   lib/jakarta.json-1.1.1.jar                                  1.1.1              
+   lib/jakarta.servlet-api-4.0.4.jar                           4.0.0              
+   lib/jakarta.xml.bind-api-4.0.0.jar                          4.0.0              
+   lib/jakarta.xml.soap-api-3.0.0.jar                          3.0.0              
+   lib/jetty-client-9.4.51.v20230217.jar                       9.4.51.v20230217   
+   lib/jetty-http-9.4.51.v20230217.jar                         9.4.51.v20230217   
+   lib/jetty-io-9.4.51.v20230217.jar                           9.4.51.v20230217   
+   lib/jetty-security-9.4.51.v20230217.jar                     9.4.51.v20230217   
+   lib/jetty-server-9.4.51.v20230217.jar                       9.4.51.v20230217   
+   lib/jetty-servlet-9.4.51.v20230217.jar                      9.4.51.v20230217   
+   lib/jetty-util-9.4.51.v20230217.jar                         9.4.51.v20230217   
+   lib/jetty-util-ajax-9.4.51.v20230217.jar                    9.4.51.v20230217   
+   lib/jetty-xml-9.4.51.v20230217.jar                          9.4.51.v20230217   
+   lib/log4j-api-2.20.0.jar                                    2.20.0             
+   lib/log4j-core-2.20.0.jar                                   2.20.0             
+   lib/saaj-impl-3.0.0.jar                                     3.0.0              
+   lib/stax-ex-2.1.0.jar                                       2.1.0              
+   lib/websocket-api-9.4.51.v20230217.jar                      9.4.51.v20230217   
+   lib/websocket-client-9.4.51.v20230217.jar                   9.4.51.v20230217   
+   lib/websocket-common-9.4.51.v20230217.jar                   9.4.51.v20230217   
+   lib/websocket-server-9.4.51.v20230217.jar                   9.4.51.v20230217   
+   lib/websocket-servlet-9.4.51.v20230217.jar                  9.4.51.v20230217   
+   lib/wrapper.jar                                             3.5.53             
+   cores/Adyen/AdyenCore.jar                                   v23.0.0.5           EFTLink v23.0.0.5-141        
+   cores/Cayan/cayancore.jar                                   v23.0.0.3           EFTLink v23.0.0.3-141        
+   cores/FIPay/FIPayCore.jar                                   v23.0.0.2           EFTLink v23.0.0.2-141        
+   cores/OciusSentinel/ociussentinelcore.jar                   v23.0.0.2           EFTLink v23.0.0.2-141        
+   cores/opiRetail/opiretail.jar                               v23.0.0.24          EFTLink v23.0.0.24-141       
+   cores/paybylink/paybylink.jar                               v23.0.0.2           EFTLink v23.0.0.2-141        
+   cores/PointUS/Pointuscore.jar                               v23.0.0.4           EFTLink v23.0.0.4-141        
+   cores/SixPay/sixpaycore.jar                                 v23.0.0.1           EFTLink v23.0.0.1-141        
+   cores/SolveConnect/SolveConnect.jar                         v23.0.0.1           EFTLink v23.0.0.1-141        
+   cores/TenderRetail/epstenderretail.jar                      v23.0.0.2           EFTLink v23.0.0.2-141        
+   cores/WorldPay/worldpaycore.jar                             v23.0.0.1           EFTLink v23.0.0.1-141        
+   cores/PayPal/PayPalCore.jar                                 v23.0.0.1           EFTLink v23.0.0.1-141        
+   cores/Geidea/GeideaCore.jar                                 1.0                
+2024-12-31 11:57:06,193 INFO  [WrapperSimpleAppMain] (OPIMessageServer:349) - EF/7959 starting TLS message server localhost/10100
+2024-12-31 11:57:06,211 INFO  [WrapperSimpleAppMain] (OPIMessageServer$ConnectionHandler:687) - EF/7959 starting connection handler on 10100/512426031
+2024-12-31 11:57:06,222 INFO  [OPIMessageServer[512426031]] (OPIMessageServer$ConnectionHandler:714) -  Configured to check for expired TLS certificates, TLSExpiryWarningLogDays: 90
+2024-12-31 11:58:02,315 INFO  [OPIMessageServer[512426031]] (OPIMessageServer$ConnectionHandler:811) -  connection accepted from 127.0.0.1/10100/63830-TLS starting message session 180151804/150532721
+2024-12-31 11:58:02,321 INFO  [OPIMessageServerSession[180151804]] (OPIServer:569) -  POS connected - message session 180151804 socket 10100/63830-TLS
+2024-12-31 11:58:02,353 INFO  [OPIMessageServerSession[180151804]] (OPISession:744) -  received from 10100/63830-TLS:
+<?xml version='1.0' encoding='UTF-8'?>
+<CardServiceRequest RequestType="CardPayment" ApplicationSender="XSTORE" WorkstationID="1" RequestID="3">
+  <POSdata LanguageCode="eng">
+    <POSTimeStamp>2024-12-31T11:58:02</POSTimeStamp>
+    <TransactionNumber>415</TransactionNumber>
+    <StoreID>11347</StoreID>
+    <DisableCashback>N</DisableCashback>
+  </POSdata>
+  <TotalAmount Currency="SAR">207.50</TotalAmount>
+  <SaleItem ItemID="_1">
+    <ProductCode>1616</ProductCode>
+    <Department>10001</Department>
+    <Amount OriginalAmount="207.50">207.50</Amount>
+    <UnitPrice>207.50</UnitPrice>
+    <Quantity>1</Quantity>
+    <TaxCode>VAT</TaxCode>
+    <TaxRate>0.15</TaxRate>
+    <UnitTaxAmount>27.06521739</UnitTaxAmount>
+    <AdditionalProductCode>1616</AdditionalProductCode>
+    <AdditionalProductInfo>دهن عود كرسنا سيوفي - 2500</AdditionalProductInfo>
+    </SaleItem>
+      <PaymentProviderName/>
+        <TotalTaxAmount>27.07</TotalTaxAmount>
+        <DestinationPostalCode>123456</DestinationPostalCode>
+        </CardServiceRequest>
+2024-12-31 11:58:02,369 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:3308) -  pre-initialisation for POS type: xstore
+2024-12-31 11:58:02,370 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:3344) -  PosType set to 6
+2024-12-31 11:58:02,370 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:3365) -  PosIfsfCompliance set to 0
+2024-12-31 11:58:02,370 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:3368) -  Adopting Comms Language <eng> from POS message
+2024-12-31 11:58:02,377 INFO  [OPIMessageServer MessageEvent[1623891628]] (DeviceAccessHandler:162) -  DeviceAccessHandler loaded
+2024-12-31 11:58:02,378 INFO  [OPIMessageServer MessageEvent[1623891628]] (DataAccessHandler:34) -  DataAccessHandler loaded
+2024-12-31 11:58:02,382 INFO  [OPIMessageServer MessageEvent[1623891628]] (Text:81) -  found local translation file C:\eftlink\LangEN.properties
+2024-12-31 11:58:02,383 INFO  [OPIMessageServer MessageEvent[1623891628]] (EPSFileProperties:65) -  loading properties file LangEN.properties from C:\eftlink
+2024-12-31 11:58:02,386 INFO  [OPIMessageServer MessageEvent[1623891628]] (EPSProduct:226) -  fuel product codes: ,0,1,2,3,4,5,6,8,10,11,12,13,14,15,16,17,18,19,20,21,22,23,28,30,31,
+2024-12-31 11:58:02,386 INFO  [OPIMessageServer MessageEvent[1623891628]] (EPSProduct:231) -  dispensable fuel product codes: ,1,2,3,4,5,6,20,21,22,23,28,30,31,
+2024-12-31 11:58:02,387 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:2943) -  setting 2 decimal places
+2024-12-31 11:58:02,431 INFO  [OPIMessageServer MessageEvent[1623891628]] (EFTLink:340) - C0/4903 GeideaCore.properties found on classpath, already in local folder - update check n/a
+2024-12-31 11:58:02,432 INFO  [OPIMessageServer MessageEvent[1623891628]] (EPSFileProperties:65) - C0/4903 loading properties file GeideaCore.properties from C:\eftlink
+2024-12-31 11:58:02,433 INFO  [OPIMessageServer MessageEvent[1623891628]] (EPSCoreFactory:219) - EF/4903 com.asq.geidea.AsqGeideaCore class loaded
+2024-12-31 11:58:02,433 INFO  [OPIMessageServer MessageEvent[1623891628]] (EPSCoreProxy:128) - EF/4903 com.asq.geidea.AsqGeideaCore implements EPSCore_1_6
+2024-12-31 11:58:02,435 INFO  [OPIMessageServer MessageEvent[1623891628]] (EPSCoreFactory:141) - EF/4903 Core AsqGeideaCore/Geidea- Core V1.0 initialised as core 0
+2024-12-31 11:58:02,437 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:2980) - EF/4903 core 0 is eWallet core
+2024-12-31 11:58:02,437 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:2994) - EF/4903 core 0 is PayByLink core
+2024-12-31 11:58:02,437 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:3002) - EF/4903 core 0 is gift card core
+2024-12-31 11:58:02,437 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:3014) - EF/4903 custom forms will be routed to core 0
+2024-12-31 11:58:02,437 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:3028) - EF/4903 authorisation/validation referrals will be routed to core 0
+2024-12-31 11:58:02,445 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:245) - EF/4903 Loading card ranges from C:\eftlink\CardRange.xml
+2024-12-31 11:58:02,463 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:322) - EF/4903 attributes set for card type 80: [[Attribute: CardType="80"], [Attribute: MaskTo="12"], [Attribute: MaskFrom="7"], [Attribute: LoyaltyEligible="true"]]
+2024-12-31 11:58:02,464 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 650611+-659999+ "DISCOVER" card type 80
+2024-12-31 11:58:02,464 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 650601+-650609+ "DISCOVER" card type 80
+2024-12-31 11:58:02,464 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 650000+-650600+ "DISCOVER" card type 80
+2024-12-31 11:58:02,464 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 6440+-6499+ "DISCOVER" card type 80
+2024-12-31 11:58:02,464 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 6282+-6288+ "UNIONPAY" card type 80
+2024-12-31 11:58:02,465 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 6240+-6269+ "UNIONPAY" card type 80
+2024-12-31 11:58:02,465 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 622126+-622925+ "UNIONPAY" card type 80
+2024-12-31 11:58:02,465 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 601105+-601199+ "DISCOVER" card type 80
+2024-12-31 11:58:02,465 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 601100+-601103+ "DISCOVER" card type 80
+2024-12-31 11:58:02,465 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 51+-55+ "MASTERCARD" card type 80
+2024-12-31 11:58:02,465 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 222100+-272099+ "MASTERCARD" card type 80
+2024-12-31 11:58:02,466 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 3528+-3589+ "JCB" card type 80
+2024-12-31 11:58:02,466 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 4+-4+ "VISA" card type 80
+2024-12-31 11:58:02,466 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 37+-37+ "AMERICAN_EXPRESS" card type 80
+2024-12-31 11:58:02,466 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 38+-39+ "DINERS_CLUB" card type 80
+2024-12-31 11:58:02,466 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 36+-36+ "DINERS_CLUB" card type 80
+2024-12-31 11:58:02,467 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 3095+-3095+ "DINERS_CLUB" card type 80
+2024-12-31 11:58:02,467 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 300+-305+ "DINERS_CLUB" card type 80
+2024-12-31 11:58:02,467 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:430) - EF/4903 Card Range: 34+-34+ "AMERICAN_EXPRESS" card type 80
+2024-12-31 11:58:02,467 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)m.*card.*> "MASTERCARD" card type 80
+2024-12-31 11:58:02,468 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)disc.*> "DISCOVER" card type 80
+2024-12-31 11:58:02,468 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)visa.*> "VISA" card type 80
+2024-12-31 11:58:02,468 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*10.*> "RESERVE_10" card type 80
+2024-12-31 11:58:02,469 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*11.*> "RESERVE_11" card type 80
+2024-12-31 11:58:02,469 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*12.*> "RESERVE_12" card type 80
+2024-12-31 11:58:02,469 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*13.*> "RESERVE_13" card type 80
+2024-12-31 11:58:02,469 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*14.*> "RESERVE_14" card type 80
+2024-12-31 11:58:02,470 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*15.*> "RESERVE_15" card type 80
+2024-12-31 11:58:02,470 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*16.*> "RESERVE_16" card type 80
+2024-12-31 11:58:02,470 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*17.*> "RESERVE_17" card type 80
+2024-12-31 11:58:02,470 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*18.*> "RESERVE_18" card type 80
+2024-12-31 11:58:02,471 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*19.*> "RESERVE_19" card type 80
+2024-12-31 11:58:02,471 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*20.*> "RESERVE_20" card type 80
+2024-12-31 11:58:02,472 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*21.*> "RESERVE_21" card type 80
+2024-12-31 11:58:02,472 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*22.*> "RESERVE_22" card type 80
+2024-12-31 11:58:02,473 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*23.*> "RESERVE_23" card type 80
+2024-12-31 11:58:02,473 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*24.*> "RESERVE_24" card type 80
+2024-12-31 11:58:02,473 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*25.*> "RESERVE_25" card type 80
+2024-12-31 11:58:02,473 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*26.*> "RESERVE_26" card type 80
+2024-12-31 11:58:02,474 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*27.*> "RESERVE_27" card type 80
+2024-12-31 11:58:02,474 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*28.*> "RESERVE_28" card type 80
+2024-12-31 11:58:02,474 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*29.*> "RESERVE_29" card type 80
+2024-12-31 11:58:02,475 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)alipay.*> "ALIPAY" card type 88
+2024-12-31 11:58:02,475 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)wechat.*> "WECHAT_PAY" card type 88
+2024-12-31 11:58:02,475 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)paypal.*> "PAYPAL" card type 88
+2024-12-31 11:58:02,476 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)apple.*> "APPLE_PAY" card type 88
+2024-12-31 11:58:02,478 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)samsung.*> "SAMSUNG_PAY" card type 88
+2024-12-31 11:58:02,479 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)android.*> "ANDROID_PAY" card type 88
+2024-12-31 11:58:02,479 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)google.*> "GOOGLE_PAY" card type 88
+2024-12-31 11:58:02,479 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)m.*pass.*> "MASTERPASS" card type 88
+2024-12-31 11:58:02,479 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)paylib.*> "PAYLIB" card type 88
+2024-12-31 11:58:02,480 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)amazon.*> "AMAZON_PAY" card type 88
+2024-12-31 11:58:02,480 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)seqr.*> "SEQR" card type 88
+2024-12-31 11:58:02,480 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)mobile.*> "MOBILEPAY" card type 88
+2024-12-31 11:58:02,480 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)lyf.*> "LYF_PAY" card type 88
+2024-12-31 11:58:02,481 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)yoyo.*> "YOYO_WALLET" card type 88
+2024-12-31 11:58:02,481 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)chase.*> "CHASE_PAY" card type 88
+2024-12-31 11:58:02,482 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)allied.*> "ALLIED_WALLET" card type 88
+2024-12-31 11:58:02,482 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)dwolla.*> "DWOLLA" card type 88
+2024-12-31 11:58:02,482 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)paytm.*> "PAYTM" card type 88
+2024-12-31 11:58:02,483 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)mobikwik.*> "MOBIKWIK" card type 88
+2024-12-31 11:58:02,483 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i).*bank.*> "PAY_BY_BANK_APP" card type 88
+2024-12-31 11:58:02,483 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)payback.*> "PAYBACK" card type 88
+2024-12-31 11:58:02,484 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)after.*> "AFTERPAY" card type 88
+2024-12-31 11:58:02,484 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)affirm.*> "AFFIRM" card type 88
+2024-12-31 11:58:02,484 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)venmo.*> "VENMO" card type 88
+2024-12-31 11:58:02,485 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)klarna.*> "KLARNA" card type 88
+2024-12-31 11:58:02,485 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)sezzle.*> "SEZZLE" card type 88
+2024-12-31 11:58:02,486 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)quad.*> "QUADPAY" card type 88
+2024-12-31 11:58:02,486 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)laybuy.*> "LAYBUY" card type 88
+2024-12-31 11:58:02,486 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)zip.*> "ZIP" card type 88
+2024-12-31 11:58:02,487 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)open.*> "OPENPAY" card type 88
+2024-12-31 11:58:02,487 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)splitit.*> "SPLITIT" card type 88
+2024-12-31 11:58:02,488 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)swish.*> "SWISH" card type 88
+2024-12-31 11:58:02,488 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)twint.*> "TWINT" card type 88
+2024-12-31 11:58:02,489 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)line.*> "LINE" card type 88
+2024-12-31 11:58:02,489 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)airtel.*> "AIRTEL" card type 88
+2024-12-31 11:58:02,490 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)african.*> "AFRICAN_EWALLETS" card type 88
+2024-12-31 11:58:02,490 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)dana.*> "DANA" card type 88
+2024-12-31 11:58:02,490 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)gcash.*> "GCASH" card type 88
+2024-12-31 11:58:02,491 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)grab.*> "GRAB_PAY" card type 88
+2024-12-31 11:58:02,491 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)kakao.*> "KAKAO_PAY" card type 88
+2024-12-31 11:58:02,492 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)momo.*> "MOMO_WALLET" card type 88
+2024-12-31 11:58:02,493 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i).*maya.*> "PAYMAYA" card type 88
+2024-12-31 11:58:02,493 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)vipps.*> "VIPPS" card type 88
+2024-12-31 11:58:02,493 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)pix.*> "PIX" card type 88
+2024-12-31 11:58:02,494 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)aci.*> "ACIPAYAFTER" card type 88
+2024-12-31 11:58:02,494 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)ame.*> "AME" card type 88
+2024-12-31 11:58:02,495 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)atome.*> "ATOME" card type 88
+2024-12-31 11:58:02,495 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)fourall.*> "FOURALL" card type 88
+2024-12-31 11:58:02,496 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)izpay.*> "IZPAY" card type 88
+2024-12-31 11:58:02,496 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)mercado.*> "MERCADO_PAGO" card type 88
+2024-12-31 11:58:02,497 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)pagseguro.*> "PAGSEGURO" card type 88
+2024-12-31 11:58:02,497 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)payunique.*> "PAYUNIQUE" card type 88
+2024-12-31 11:58:02,497 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)picpay.*> "PICPAY" card type 88
+2024-12-31 11:58:02,498 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)riachuelo.*> "RIACHUELO" card type 88
+2024-12-31 11:58:02,498 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)semparar.*> "SEMPARAR" card type 88
+2024-12-31 11:58:02,499 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)tapago.*> "TAPAGO" card type 88
+2024-12-31 11:58:02,499 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)ticketlog.*> "TICKETLOG" card type 88
+2024-12-31 11:58:02,499 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)troco.*> "TROCO_SIMPLES" card type 88
+2024-12-31 11:58:02,500 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)veedigital.*> "VEEDIGITAL" card type 88
+2024-12-31 11:58:02,500 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)generic.*ewallet> "GENERIC_EWALLET" card type 88
+2024-12-31 11:58:02,501 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*1.*> "RESERVE_1" card type 88
+2024-12-31 11:58:02,502 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*2.*> "RESERVE_2" card type 88
+2024-12-31 11:58:02,502 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*3.*> "RESERVE_3" card type 88
+2024-12-31 11:58:02,502 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*4.*> "RESERVE_4" card type 88
+2024-12-31 11:58:02,503 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*5.*> "RESERVE_5" card type 88
+2024-12-31 11:58:02,503 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*6.*> "RESERVE_6" card type 88
+2024-12-31 11:58:02,504 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*7.*> "RESERVE_7" card type 88
+2024-12-31 11:58:02,504 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*8.*> "RESERVE_8" card type 88
+2024-12-31 11:58:02,504 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <(?i)reserve.*9.*> "RESERVE_9" card type 88
+2024-12-31 11:58:02,505 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:435) - EF/4903 Card Range: <.+> "UNKNOWN CARD" card type 80
+2024-12-31 11:58:02,505 INFO  [OPIMessageServer MessageEvent[1623891628]] (CardRangeBuilder:611) - EF/4903 MaskingCRC matches
+2024-12-31 11:58:02,506 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:1318) - EF/4903 > POS: CardServiceRequest/CardPayment/3
+2024-12-31 11:58:02,506 INFO  [OPIMessageServer MessageEvent[1623891628]] (DeviceAccessHandler:480) - EF/4903 (re-)starting DeviceAccessHandler session
+2024-12-31 11:58:02,510 WARN  [OPIMessageServer MessageEvent[1623891628]] (EPSFileProperties:85) - EF/4903 properties file error EFTLinkCert.Properties not found
+2024-12-31 11:58:02,524 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:1585) - EF/4903 POS transaction number changed - new sale implied
+2024-12-31 11:58:02,524 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:1966) - EF/4903 passing request to core 0
+2024-12-31 11:58:02,528 INFO  [OPIMessageServer MessageEvent[1623891628]] (EFTLink:340) - C0/4903 GeideaCore.properties found on classpath, already in local folder - update check n/a
+2024-12-31 11:58:02,528 INFO  [OPIMessageServer MessageEvent[1623891628]] (EPSFileProperties:65) - C0/4903 loading properties file GeideaCore.properties from C:\eftlink
+2024-12-31 11:58:02,529 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:1974) - EF/4903 request failed: FAILURE
+2024-12-31 11:58:02,530 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPIServer:2056) - EF/4903 no card/voucher returned by core
+2024-12-31 11:58:02,534 INFO  [OPIMessageServer MessageEvent[1623891628]] (OPISession:888) - EF/4903 sending to 10100/63830-TLS:
+<?xml version="1.0" encoding="UTF-8"?>
+<CardServiceResponse RequestID="3" WorkstationID="1" OverallResult="Failure" ApplicationSender="XSTORE" RequestType="CardPayment"/>
+2024-12-31 11:58:02,538 INFO  [OPIMessageServerSession[180151804]] (OPISession:970) -  socket 10100/63830-TLS closed at other end (bytes read 0)
+2024-12-31 11:58:02,539 INFO  [OPIMessageServerSession[180151804]] (OPIServer:757) -  POS disconnected - message session 180151804 socket 10100/63830-TLS
+2024-12-31 11:58:02,540 INFO  [OPIMessageServer[512426031]] (OPIMessageServer$ConnectionHandler:819) -  messageSession 127.0.0.1/10100/63830-TLS starting message session 180151804/150532721 terminated

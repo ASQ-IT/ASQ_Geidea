@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CardRange>
+
+  <!-- card attributes by card type -->
+  <!-- Tender - optional direct mapping to a tender - this would normally be handled by the POS using a mapping from CardType -->
+  <!-- LoyaltyEligible - whether this payment type is elligible for loyalty point award e.g. not local accounts -->
+  <!-- SuppressLast - number of characters to cut from the end of the PAN before returning it to the POS -->
+  <!-- MaskFrom - start position for masking PAN. defaults to 1 if MaskTo is set -->
+  <!-- MaskTo - start position for masking PAN. defaults to PAN length if MaskFrom is set -->
+  <!-- MaskLast - number of characters to mask at the end of the PAN -->
+  <!-- ClearTextPAN - whether the PAN is to returned to the POS without masking e.g. for local accounts. only valid if no MaskXxx flags are set -->
+  
+  <!-- Card Type Attribute already in this config file for ICC -->
+  <CardTypeAttributes MaskingCRC="1494A6A4"/>
+  <CardTypeAttributes CardType = "80" MaskFrom="7" MaskTo="12"  LoyaltyEligible="true" />
+
+  <!--  ============================================================ -->
+  <!--  RANGE AND WILDCARD MATCHES ARE PROCESSED IN THE ORDER LISTED -->
+  <!--  ============================================================ -->
+
+  <!-- wildcard matches for PAN/name using regular experessions -->
+  <!-- e.g. <Range  Match = "70712490.......7" Name = "Overdrive" Core = "0" CardType = "13" /> -->
+  <!-- e.g. <Range  Match = "(?i)maes.*" Name = "Maestro" Core = "0" CardType = "28" /> -->
+
+  <!-- start-end range matches -->
+  <!-- e.g. <Range  Start = "70660000" End = "70729999" Name = "Fuelcard" Core = "0" CardType = "99" /> -->
+  <!-- e.g. <Range  Match = "(?i)maes.*" Name = "Maestro" Core = "0" CardType = "28" /> -->
+  
+   <!-- DISCOVER -->
+  <Range Start="650611+" End="659999+" Name="DISCOVER" Core="0" CardType="80"/>
+  <Range Start="650601+" End="650609+" Name="DISCOVER" Core="0" CardType="80"/>
+  <Range Start="650000+" End="650600+" Name="DISCOVER" Core="0" CardType="80"/>
+  <Range Start="6440+" End="6499+" Name="DISCOVER" Core="0" CardType="80"/>
+  
+   <!-- UNIONPAY (CUP) -->
+   <Range Start="6282+" End="6288+" Name="UNIONPAY" Core="0" CardType="80"/>
+   <Range Start="6240+" End="6269+" Name="UNIONPAY" Core="0" CardType="80"/>
+   <Range Start="622126+" End="622925+" Name="UNIONPAY" Core="0" CardType="80"/>
+  
+   <!-- DISCOVER -->
+  <Range Start="601105+" End="601199+" Name="DISCOVER" Core="0" CardType="80"/>
+  <Range Start="601100+" End="601103+" Name="DISCOVER" Core="0" CardType="80"/>
+    
+   <!-- MASTERCARD -->
+  <Range Start="51+" End="55+" Name="MASTERCARD" Core="0" CardType="80"/> 
+  <Range Start="222100+" End="272099+" Name="MASTERCARD" Core="0" CardType="80"/>
+  
+  <!-- JCB -->
+  <Range Start="3528+" End="3589+" Name="JCB" Core="0" CardType="80"/> 
+   
+  <!-- VISA -->
+  <Range Start="4+" End="4+" Name="VISA" Core="0" CardType="80"/> 
+    
+  <!-- AMEX -->
+  <Range Start="37+" End="37+" Name="AMERICAN_EXPRESS" Core="0" CardType="80"/> 
+    
+  <!-- DINERS CLUB -->
+  <Range Start="38+" End="39+" Name="DINERS_CLUB" Core="0" CardType="80"/>
+  <Range Start="36+" End="36+" Name="DINERS_CLUB" Core="0" CardType="80"/>
+  <Range Start="3095+" End="3095+" Name="DINERS_CLUB" Core="0" CardType="80"/>
+  <Range Start="300+" End="305+" Name="DINERS_CLUB" Core="0" CardType="80"/>   
+  
+  <!-- AMEX -->
+  <Range Start="34+" End="34+" Name="AMERICAN_EXPRESS" Core="0" CardType="80"/> 
+  
+  <!-- Oracle Solution to Return PAN -->  
+	<Range Match="(?i)m.*card.*" Name="MASTERCARD" Core="0" CardType="80" />
+  <Range Match = "(?i)disc.*" Name = "DISCOVER" Core = "0" CardType = "80" />
+  <Range Match = "(?i)visa.*" Name = "VISA" Core = "0" CardType = "80" />
+
+  <!-- Reserved issuer ids (do not change the order) -->
+  <Range Match = "(?i)reserve.*10.*" Name = "RESERVE_10" Core = "0" CardType = "80" />  
+  <Range Match = "(?i)reserve.*11.*" Name = "RESERVE_11" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*12.*" Name = "RESERVE_12" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*13.*" Name = "RESERVE_13" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*14.*" Name = "RESERVE_14" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*15.*" Name = "RESERVE_15" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*16.*" Name = "RESERVE_16" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*17.*" Name = "RESERVE_17" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*18.*" Name = "RESERVE_18" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*19.*" Name = "RESERVE_19" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*20.*" Name = "RESERVE_20" Core = "0" CardType = "80" />  
+  <Range Match = "(?i)reserve.*21.*" Name = "RESERVE_21" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*22.*" Name = "RESERVE_22" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*23.*" Name = "RESERVE_23" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*24.*" Name = "RESERVE_24" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*25.*" Name = "RESERVE_25" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*26.*" Name = "RESERVE_26" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*27.*" Name = "RESERVE_27" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*28.*" Name = "RESERVE_28" Core = "0" CardType = "80" />
+  <Range Match = "(?i)reserve.*29.*" Name = "RESERVE_29" Core = "0" CardType = "80" />
+
+  <!-- Wallet Payments -->
+  <Range Match = "(?i)alipay.*" Name = "ALIPAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)wechat.*" Name = "WECHAT_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)paypal.*" Name = "PAYPAL" Core = "0" CardType = "88" />
+  <Range Match = "(?i)apple.*" Name = "APPLE_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)samsung.*" Name = "SAMSUNG_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)android.*" Name = "ANDROID_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)google.*" Name = "GOOGLE_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)m.*pass.*" Name = "MASTERPASS" Core = "0" CardType = "88" />
+  <Range Match = "(?i)paylib.*" Name = "PAYLIB" Core = "0" CardType = "88" />
+  <Range Match = "(?i)amazon.*" Name = "AMAZON_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)seqr.*" Name = "SEQR" Core = "0" CardType = "88" />
+  <Range Match = "(?i)mobile.*" Name = "MOBILEPAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)lyf.*" Name = "LYF_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)yoyo.*" Name = "YOYO_WALLET" Core = "0" CardType = "88" />
+  <Range Match = "(?i)chase.*" Name = "CHASE_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)allied.*" Name = "ALLIED_WALLET" Core = "0" CardType = "88" />
+  <Range Match = "(?i)dwolla.*" Name = "DWOLLA" Core = "0" CardType = "88" />
+  <Range Match = "(?i)paytm.*" Name = "PAYTM" Core = "0" CardType = "88" />
+  <Range Match = "(?i)mobikwik.*" Name = "MOBIKWIK" Core = "0" CardType = "88" />
+  <Range Match = "(?i).*bank.*" Name = "PAY_BY_BANK_APP" Core = "0" CardType = "88" />
+  <Range Match = "(?i)payback.*" Name = "PAYBACK" Core = "0" CardType = "88" />
+  <Range Match = "(?i)after.*" Name = "AFTERPAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)affirm.*" Name = "AFFIRM" Core = "0" CardType = "88" />
+  <Range Match = "(?i)venmo.*" Name = "VENMO" Core = "0" CardType = "88" />
+  <Range Match = "(?i)klarna.*" Name = "KLARNA" Core = "0" CardType = "88" />
+  <Range Match = "(?i)sezzle.*" Name = "SEZZLE" Core = "0" CardType = "88" />
+  <Range Match = "(?i)quad.*" Name = "QUADPAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)laybuy.*" Name = "LAYBUY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)zip.*" Name = "ZIP" Core = "0" CardType = "88" />
+  <Range Match = "(?i)open.*" Name = "OPENPAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)splitit.*" Name = "SPLITIT" Core = "0" CardType = "88" />
+  <Range Match = "(?i)swish.*" Name = "SWISH" Core = "0" CardType = "88" />
+  <Range Match = "(?i)twint.*" Name = "TWINT" Core = "0" CardType = "88" />
+  <Range Match = "(?i)line.*" Name = "LINE" Core = "0" CardType = "88" />
+  <Range Match = "(?i)airtel.*" Name = "AIRTEL" Core = "0" CardType = "88" />
+  <Range Match = "(?i)african.*" Name = "AFRICAN_EWALLETS" Core = "0" CardType = "88" />
+  <Range Match = "(?i)dana.*" Name = "DANA" Core = "0" CardType = "88" />
+  <Range Match = "(?i)gcash.*" Name = "GCASH" Core = "0" CardType = "88" />
+  <Range Match = "(?i)grab.*" Name = "GRAB_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)kakao.*" Name = "KAKAO_PAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)momo.*" Name = "MOMO_WALLET" Core = "0" CardType = "88" />
+  <Range Match = "(?i).*maya.*" Name = "PAYMAYA" Core = "0" CardType = "88" />
+  <Range Match = "(?i)vipps.*" Name = "VIPPS" Core = "0" CardType = "88" />
+  <Range Match = "(?i)pix.*" Name = "PIX" Core = "0" CardType = "88" />
+  <Range Match = "(?i)aci.*" Name = "ACIPAYAFTER" Core = "0" CardType = "88" />
+  <Range Match = "(?i)ame.*" Name = "AME" Core = "0" CardType = "88" />
+  <Range Match = "(?i)atome.*" Name = "ATOME" Core = "0" CardType = "88" />
+  <Range Match = "(?i)fourall.*" Name = "FOURALL" Core = "0" CardType = "88" />
+  <Range Match = "(?i)izpay.*" Name = "IZPAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)mercado.*" Name = "MERCADO_PAGO" Core = "0" CardType = "88" />
+  <Range Match = "(?i)pagseguro.*" Name = "PAGSEGURO" Core = "0" CardType = "88" />
+  <Range Match = "(?i)payunique.*" Name = "PAYUNIQUE" Core = "0" CardType = "88" />
+  <Range Match = "(?i)picpay.*" Name = "PICPAY" Core = "0" CardType = "88" />
+  <Range Match = "(?i)riachuelo.*" Name = "RIACHUELO" Core = "0" CardType = "88" />  
+  <Range Match = "(?i)semparar.*" Name = "SEMPARAR" Core = "0" CardType = "88" />
+  <Range Match = "(?i)tapago.*" Name = "TAPAGO" Core = "0" CardType = "88" />
+  <Range Match = "(?i)ticketlog.*" Name = "TICKETLOG" Core = "0" CardType = "88" />
+  <Range Match = "(?i)troco.*" Name = "TROCO_SIMPLES" Core = "0" CardType = "88" />
+  <Range Match = "(?i)veedigital.*" Name = "VEEDIGITAL" Core = "0" CardType = "88" />
+  <Range Match = "(?i)generic.*ewallet" Name = "GENERIC_EWALLET" Core = "0" CardType = "88" />  
+  <Range Match = "(?i)reserve.*1.*" Name = "RESERVE_1" Core = "0" CardType = "88" />
+  <Range Match = "(?i)reserve.*2.*" Name = "RESERVE_2" Core = "0" CardType = "88" />
+  <Range Match = "(?i)reserve.*3.*" Name = "RESERVE_3" Core = "0" CardType = "88" />
+  <Range Match = "(?i)reserve.*4.*" Name = "RESERVE_4" Core = "0" CardType = "88" />
+  <Range Match = "(?i)reserve.*5.*" Name = "RESERVE_5" Core = "0" CardType = "88" />
+  <Range Match = "(?i)reserve.*6.*" Name = "RESERVE_6" Core = "0" CardType = "88" />
+  <Range Match = "(?i)reserve.*7.*" Name = "RESERVE_7" Core = "0" CardType = "88" />
+  <Range Match = "(?i)reserve.*8.*" Name = "RESERVE_8" Core = "0" CardType = "88" />
+  <Range Match = "(?i)reserve.*9.*" Name = "RESERVE_9" Core = "0" CardType = "88" />     
+ 
+   <!--  EFT catchall for unknown PAN/name matching -->
+  <Range Match=".+" Name="UNKNOWN CARD" Core="0" CardType="80"/>
+</CardRange>
